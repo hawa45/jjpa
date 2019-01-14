@@ -1,0 +1,135 @@
+﻿HTML
+Document en .html
+W3C
+world wide web Consortium
+
+http://campus.ow-lab.com/                                   <= La base
+
+https://developer.mozilla.org/fr/                           <= Ton meilleur ami pour le web
+
+https://developer.mozilla.org/fr/docs/Web/HTML/Element      <= Elements HTML
+
+https://validator.w3.org/                                   <= valider une page HTML
+
+Crawler Web <= les bots qui parcours le web, n'indexe pas une page si non-conforme au W3C
+
+Tim Berners Lee <= est ton dieu.
+        |-> Solid : récupérer tes données sur le web
+
+ On écrit le HTML avec un éditeur de texte ou IDE.
+
+    Brackets, Sublime Text, Dream weaver, Notepad++, Text Wrangler, etc
+    Jamais avec Word ni open Office !
+    
+http://nilclass.com/courses/how-websites-work/#1            <= Comment ça marche
+
+https://caniuse.com/                                        <= Est-ce que je peux utiliser cette balise ?
+
+
+------------------------------------------------------------------
+
+CSS 
+(Cascade Style Sheets)
+Document en .css
+Fonctionne par feuilles de style
+<link rel="stylesheet" type="text/css" href="chemin/vers/mon_style.css" />         <= Dans le <head> du HTML
+
+Règle :
+
+Selecteur {     |    p {
+clé : valeur;   |    color : blue;
+}               |    }
+
+TOUJOURS indenter le code, ne pas écrire sur une ligne. (TAB est ton pote)
+
+https://flukeout.github.io/         <= fun minigame
+
+------------------------------------------------------------------
+
+JavaScript
+
+Ce n'est PAS java
+prévu pour du coté client mais utilisez en fullstack maintenant
+Orienté objet, héritage via prototype
+
+
+Des types "classiques"
+    Numbers (et NaN)
+    Strings (Char est un Strings de longueur 1)
+    Booleans
+    Objects
+Des types "spéciaux"
+    null
+    undefined
+
+---------
+
+1 == 1    <= égalité souple (compare seulement les valeurs)
+true
+1 == "1"
+true      <= JS fais de la convertion automatiquement
+1 === 1   <= égalité stricte (compare valeurs ET types) prendre l'habitude de faire -> === <-
+true
+1 === "1"
+false     <= Pas le même type
+
+----------
+
+1 + 1
+2
+1 + "1"
+"11"
+1 + Number("1")     <= Chaque types a son constructeur
+2
+
+----------
+
+Opérateur ternaire => ? :  <= Permet de "réduire" un if else ; if=? else=:
+
+var res = 1 > 0 ? "yes" : "no"
+"yes"
+
+----------
+
+Appellez la console sur le navigateur => f12 -> console
+Elle ne sert qu'à débuger tes programme (Ou t'amuser)
+
+----------
+
+	function [identifiant] ([param, param, ...]) {
+		// code JS ici
+	}
+	
+
+En PHP ou en Java, il y'a des classes abstraites et concrètes, des interfaces...
+EN JS, les fonctions jouent le rôle de tous ces outils. 
+
+----------
+
+function maFonction() {
+    return trucDuCul
+}                           <= création puis execution de la fonction
+
+mafonction();
+
+(function maFonction() {
+    return trucDuCul            <= execution direct
+}());
+
+----------
+
+
+
+----------
+
+http://helloworldcollection.de/         <= Dire Hello world dans touts les langages
+
+Livres ; Javascript the deSfinitive guide, js the good parts
+
+http://vanilla-js.com/          <= How to JS
+
+https://flukeout.github.io/     <= Apprends CSS avec des pomme et des cornichons
+
+http://www.marevueweb.com/css-html/liste-nth-child-propriete/           <= CheatSheet pour nth-child
+
+http://www.babylonjs.com/       <= Que fait-on avec JS
